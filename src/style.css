@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Reset body to allow Tailwind to work properly */
+body {
+  margin: 0;
+}
+
+/* Ensure dropdown options are visible */
+select option {
+  background-color: white !important;
+  color: black !important;
+}
